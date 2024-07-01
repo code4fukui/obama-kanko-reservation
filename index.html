@@ -32,7 +32,7 @@
       "n_room": "室数",
       "n_people": "利用総人数",
       "n_stay": "平均泊数",
-      "amount_fee": "利用合計",
+      "amount_fee": "利用金額合計",
       "n_reserve": "予約件数",
       "date_visit": "利用開始日",
     };
@@ -83,7 +83,7 @@
     return cols;
   };
   
-  const NAME_FEE = "利用合計";
+  const NAME_FEE = "利用金額合計";
   const NAME_OCC = "客室稼働率 (OCC)";
   const NAME_ADR = "客室平均単価 (ADR)";
   const NAME_AVE = "客平均単価";
@@ -150,7 +150,7 @@
       // columns[0] // date
       const people = columns[1]; // 人数
       const room = columns[2]; // 室数
-      const amount = columns[4]; // 利用合計
+      const amount = columns[4]; // 利用金額合計
       if (room[i] == 0) {
         occ[i] = "";
         adr[i] = "";
