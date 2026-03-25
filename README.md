@@ -1,16 +1,35 @@
 # obama-kanko-reservation
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-https://code4fukui.github.io/obama-kanko-reservation/
+小浜エリア 宿泊予約状況（データ出典：福井県観光連盟）
+
+**Live demo**: https://code4fukui.github.io/obama-kanko-reservation/
 
 ## Features
-- Displays the reservation status of hotels in the Obama area, Fukui Prefecture, Japan
-- Provides data on total number of rooms, occupancy rate, average daily rate, revenue per available room, and more
-- Includes a chart visualization of the data
-- Data is sourced from the Fukui Prefectural Tourism Federation
 
-## Data / API
-This project uses open data from the "FTAS" tourism data analysis system provided by the Fukui Prefectural Tourism Federation.
+- CSV data parsing
+
+## Technology Stack
+
+**Browser modules (ES imports):**
+
+- [`CSV.js`](https://js.sabae.cc/CSV.js)
+- [`DateTime.js`](https://js.sabae.cc/DateTime.js)
+- [`DateTime.js`](https://code4fukui.github.io/day-es/DateTime.js)
+
+
+## Project Structure
+
+- `data/` — Data files and fixtures
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/obama-kanko-reservation/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
